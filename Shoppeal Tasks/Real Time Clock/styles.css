@@ -1,0 +1,23 @@
+body{
+    background-color:rgb(250, 195, 250);
+}
+
+
+h1{
+    font-family: 'Lobster', cursive;
+    color: aliceblue;
+}
+
+.clock-box{
+    /* position : relative */
+    text-align: center;
+    margin-top: 100px;
+    justify-content: center;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    width: 500px;
+    margin-left: 395px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+    background-color: rgb(224, 100, 204);
+
+}

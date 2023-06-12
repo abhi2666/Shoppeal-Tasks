@@ -1,0 +1,102 @@
+body {
+  font-family: 'Roboto Slab', Arial, sans-serif;
+  background-color: #F1D4E5;
+  margin: 0;
+  padding: 20px;
+}
+
+#todo-container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #E4A5FF;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+#todo-container h1 {
+  text-align: center;
+  color: #333;
+}
+
+#task-container {
+  display: flex;
+  align-items: center;
+}
+
+#task-container input[type="text"] {
+  flex-grow: 1;
+  padding: 8px;
+  font-size: 14px;
+  border: none;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+
+#task-container button {
+  background-color: #5fba7d;
+  color: #f9f9f9;
+  border: none;
+  border-radius: 3px;
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#task-container button:hover {
+  background-color: #9336B4;
+}
+
+#todo-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+button{
+  justify-self: right;
+}
+
+#todo-container li {
+  /* display: flex; */
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 5px;
+  background-color: #ffff;
+  border-radius: 3px;
+}
+
+#todo-container li.strikethrough {
+  background-color: #f1f1f1;
+  color: #999;
+}
+
+#todo-container li input[type="text"] {
+  flex-grow: 1;
+  margin-right: 10px;
+  border: none;
+  font-size: 16px;
+  padding: 5px;
+}
+
+#todo-container li button {
+  margin-left: 10px;
+  background-color: #ff5757;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+#todo-container li button:hover {
+  background-color: #e44f4f;
+}
+
+#todo-container li button.edit-button {
+  background-color: #5fba7d;
+}
+
+#todo-container li button.edit-button:hover {
+  background-color: #4e9f6a;
+}
