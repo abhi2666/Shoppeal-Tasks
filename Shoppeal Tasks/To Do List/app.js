@@ -1,4 +1,6 @@
-// JavaScript code goes here
+// we will create dynamic list items using JS and DOM and that will help us to add tasks into the list
+// then we can easily implement the remove and edit features.
+// Note :- when clicked on remove it will remove the item after 1 sec (this is a feature).
         const taskInput = document.getElementById("taskInput");
         const taskList = document.getElementById("taskList");
         const addTaskButton = document.getElementById("add-task-button");
